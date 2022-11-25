@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Bree+Serif&family=Bungee+Spice&family=Ubuntu:wght@300;400;500&display=swap');
+/*
+font-family: 'Baloo Bhai 2', cursive;
+font-family: 'Bree Serif', serif;
+font-family: 'Bungee Spice', cursive;
+font-family: 'Ubuntu', sans-serif;
+*/
+
+.App {
+  text-align: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around !important;
+  align-items: center;
+  background-color: #ddcadd61;
+  box-shadow: 1px 1px 5px 2px rgb(13, 11, 11);
+  width: 100%;
+}
+
+.heading {
+  font-family: Bungee Spice, cursive;
+  text-shadow: 5px 2px 3px #644141;
+}
+
+.action {
+  display: flex;
+}
+
+.eachbtn {
+  margin: 0.5rem;
+}
+
+.user {
+  margin: 1rem;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 900 !important;
+  font-size: 1.5rem;
+  text-shadow: 2px 2px 3px #644141;
+
+}
+
+.createUser {
+  border: 2px solid grey;
+  background-color: rgb(213, 205, 205);
+  border-radius: 1rem;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+}
+
+.subheading {
+  font-family: 'Bungee Spice', cursive;
+  margin: 1rem;
+
+}
+
+span {
+  font-family: 'Bree Serif', serif;
+}
+
+h6 {
+  font-family: 'Baloo Bhai 2', cursive;
+  color: red;
+  margin-top: 0.5rem !important;
+}
+
+Table {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+@media (max-width:500px) {
+  .action {
+    flex-direction: column;
+  }
+}
+
+@media (max-width:420px) {
+  html {
+    font-size: 60%;
+  }
+
+  .heading {
+    font-family: Bungee Spice, cursive;
+    text-shadow: 2px 2px 3px #644141;
+  }
+}
